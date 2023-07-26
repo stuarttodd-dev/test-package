@@ -4,7 +4,7 @@ namespace Stuarttodd\RandomNumber;
 
 class RandomNumber
 {
-    public function generate()
+    public static function generate(): int
     {
         return rand(1, 100);
     }
