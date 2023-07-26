@@ -2,6 +2,6 @@
 
 require_once 'vendor/autoload.php';
 
-$class = new Stuarttodd\RandomNumber\RandomNumber();
 
-echo $class->generate();
+
+echo Stuarttodd\RandomNumber\RandomNumber::generate();

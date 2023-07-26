@@ -6,6 +6,6 @@ class RandomNumber
 {
     public static function generate(): int
     {
-        return rand(1, 100);
+        return rand(1, 1000);
     }
 }
